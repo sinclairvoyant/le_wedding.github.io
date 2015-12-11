@@ -16,11 +16,17 @@ body {
     height: 80px;
     transition: background-color .5s ease 0s;
 }
-.jumbotron {
+.hero-unit {
     background-image: url(../img/le_wedding_hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
     margin-bottom: 5%;
+}
+.logo {
+    font-size: 80px;
+    font-family: 'Lobster Two', cursive;
+    text-align: right;
+    margin-top: 5%;
 }
