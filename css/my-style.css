@@ -1,1 +1,26 @@
-
+body {
+    font-family: 'Rambla', sans-serif;
+    font-size: 16px;
+    color: black;
+    background: #040001;
+}
+.opaque-navbar {
+    background-color: rgba(0, 0, 0, 0);
+    /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 80px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 80px;
+    transition: background-color .5s ease 0s;
+}
+.jumbotron {
+    background-image: url(../img/le_wedding_hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    margin-bottom: 5%;
+}
