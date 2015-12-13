@@ -2,11 +2,17 @@ body {
     font-family: 'Rambla', sans-serif;
     font-size: 16px;
     color: white;
-    background: #040001;
 }
+h1,
+h2 {
+    font-family: 'Lobster Two', cursive;
+    color: white;
+}
+
+/*
 .opaque-navbar {
-    background-color: rgba(0, 0, 0, 0);
-    /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    background-color: rgba(0, 0, 0, 0.5);
+     Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  
     height: 80px;
     border-bottom: 0px;
     transition: background-color .5s ease 0s;
@@ -16,6 +22,8 @@ body {
     height: 80px;
     transition: background-color .5s ease 0s;
 }
+*/
+
 .hero-unit {
     background-image: url(../img/le_wedding_hero.jpg);
     background-position: center;
@@ -24,9 +32,8 @@ body {
     height: 100vh;
     margin-bottom: 5%;
 }
-.logo {
+.logo h1 {
     font-size: 80px;
-    font-family: 'Lobster Two', cursive;
     text-align: right;
-    margin-top: 15%;
+    color: black;
 }
