@@ -1,7 +1,7 @@
 body {
     font-family: 'Rambla', sans-serif;
     font-size: 16px;
-    color: black;
+    color: white;
     background: #040001;
 }
 .opaque-navbar {
@@ -28,5 +28,5 @@ body {
     font-size: 80px;
     font-family: 'Lobster Two', cursive;
     text-align: right;
-    margin-top: 5%;
+    margin-top: 15%;
 }
