@@ -3,37 +3,63 @@ body {
     font-size: 16px;
     color: white;
 }
-h1,
-h2 {
+h1 {
     font-family: 'Lobster Two', cursive;
-    color: white;
+    color: black;
+    font-size: 60px;
+}
+h2,
+h3 {
+    font-family: 'Lobster Two', cursive;
+    color: black;
 }
 
-/*
+/*Change font color of navbar and navbar brand*/
+
+.navbar-default .navbar-nav>li>a {
+    color: #b76e79;
+}
+.navbar-default .navbar-brand {
+    color: #b76e79;
+}
 .opaque-navbar {
-    background-color: rgba(0, 0, 0, 0.5);
-     Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  
+    background-color: rgba(0, 0, 0, 0);
+    /*     Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
     height: 80px;
     border-bottom: 0px;
     transition: background-color .5s ease 0s;
 }
 .opaque-navbar.opaque {
-    background-color: black;
+    background-color: #010001;
     height: 80px;
     transition: background-color .5s ease 0s;
 }
-*/
-
+.navbar-header {
+    width: 98%;
+    font-family: 'Homenaje', serif;
+    font-size: 25px;
+    margin: 1%;
+    color:
+}
+.navbar-brand {
+    font-family: 'Lobster Two', serif;
+    font-size: 60px;
+}
 .hero-unit {
     background-image: url(../img/le_wedding_hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
-    margin-bottom: 5%;
+    background-size: cover;
+    height: 800px;
+    width: auto;
 }
-.logo h1 {
-    font-size: 80px;
-    text-align: right;
-    color: black;
+.about {
+    background-color: #FFCCCC;
+    text-align: center;
+}
+.about img {
+    text-align: center;
+    border-radius: 100%;
+    float: none;
+    margin: 0 auto;
 }
