@@ -16,7 +16,6 @@ h2,
 h3 {
     font-family: 'Lobster Two', cursive;
     color: black;
-    margin: 20px 0px;
 }
 
 /*Change font color of navbar and navbar brand*/
@@ -27,6 +26,9 @@ h3 {
 .navbar-default .navbar-brand {
     color: #b76e79;
 }
+
+/*Transparent Navbar*/
+
 .opaque-navbar {
     background-color: rgba(0, 0, 0, 0);
     /*     Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
@@ -44,12 +46,14 @@ h3 {
     font-family: 'Homenaje', serif;
     font-size: 25px;
     margin: 1%;
-    color:
 }
 .navbar-brand {
     font-family: 'Lobster Two', serif;
     font-size: 60px;
 }
+
+/*Hero*/
+
 .hero-unit {
     background-image: url(../img/le_wedding_hero.jpg);
     background-position: center;
@@ -58,20 +62,53 @@ h3 {
     height: 800px;
     width: auto;
 }
-.about {
+.about,
+.people {
     background-color: #FFCCCC;
     text-align: center;
-    padding: 0px;
+    padding: 0px 0px 30px 0;
 }
 .about img {
     text-align: center;
     float: none;
     margin: 0 auto;
 }
+.about p {
+    color: black;
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+}
 .events {
     background-image: url(../img/symphony.png);
     background-position: center;
     background-repeat: repeat;
     background-size: auto;
+}
+.party i {
     color: #b76e79;
+}
+.party {
+    padding: 30px 0px;
+}
+.people i {
+    padding-bottom: 30px;
+}
+.circle-icon {
+    background: #AFAFAF;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 125px;
+    vertical-align: middle;
+    padding: 30px;
+}
+.people img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 125px;
+    vertical-align: middle;
 }
