@@ -63,7 +63,8 @@ h3 {
     width: auto;
 }
 .about,
-.people {
+.people,
+.rsvp {
     background-color: #FFCCCC;
     text-align: center;
     padding: 0px 0px 30px 0;
@@ -79,7 +80,8 @@ h3 {
     margin-left: 30%;
     text-align: center;
 }
-.events {
+.events,
+.photos {
     background-image: url(../img/symphony.png);
     background-position: center;
     background-repeat: repeat;
@@ -91,8 +93,8 @@ h3 {
 .party {
     padding: 30px 0px;
 }
-.people i {
-    padding-bottom: 30px;
+i {
+    padding: 30px 0px;
 }
 .circle-icon {
     background: #AFAFAF;
@@ -102,7 +104,7 @@ h3 {
     text-align: center;
     line-height: 125px;
     vertical-align: middle;
-    padding: 30px;
+    padding: 35px;
 }
 .people img {
     width: 180px;
@@ -111,4 +113,9 @@ h3 {
     text-align: center;
     line-height: 125px;
     vertical-align: middle;
+}
+.thumbnail,
+.rsvp iframe {
+    padding: 0px;
+    box-shadow: 10px 10px 5px #AFAFAF;
 }
